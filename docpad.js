@@ -49,25 +49,25 @@ module.exports = {
       {
         name: "Sabado",
         time: "10h00",
-        description: "Programa em fase de definicão"
+        description: "Programa em fase de definição"
       },
       {
         name: "Domingo",
         time: "10h00",
-        description: "Programa em fase de definicão"
+        description: "Programa em fase de definição"
       },
       {
         name: "Programacão Insubordinada",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: 'Entre para fazer parte do grupo de voluntarios no google groups!',
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "https://groups.google.com/forum/#!forum/programacao-insubordinada",
+          text: "@ProgInsub"
         },
         presentation: {
-          title: "Você quier ajudar na creacão desse evento?",
-          description: "",
-        }
+          title: "Você quer ajudar na criacão desse evento?",
+          description:"" 
+         }
       }
     ],
 

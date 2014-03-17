@@ -18,7 +18,7 @@
       </h3>
 
       <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
-      <p class="speakers-bio"><%= speaker.bio %></p>
+      <p class="speakers-bio"><%= speaker.bio %> <a href="https://groups.google.com/forum/#!forum/programacao-insubordinada">https://groups.google.com/forum/#!forum/programacao-insubordinada</a></p>
     </li>
   <% end %>
 <% end %>
