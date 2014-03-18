@@ -8,7 +8,7 @@ module.exports = {
       name: "Programacão Insubordinada",
       description: "",
       date: "5-6 Abril",
-      venue: "Venue em definicão",
+      venue: "Venue em definição",
       address: "Recife",
       city: "Recife",
       state: "Pernambuco, Brazil"
@@ -47,7 +47,7 @@ module.exports = {
 
     schedule: [
       {
-        name: "Sabado",
+        name: "Sábado",
         time: "10h00",
         description: "Programa em fase de definição"
       },
@@ -59,13 +59,13 @@ module.exports = {
       {
         name: "Programacão Insubordinada",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: 'Entre para fazer parte do grupo de voluntarios no google groups!',
+        bio: 'Entre para fazer parte do grupo de voluntários no google groups!',
         link: {
           href: "https://groups.google.com/forum/#!forum/programacao-insubordinada",
           text: "@ProgInsub"
         },
         presentation: {
-          title: "Você quer ajudar na criacão desse evento?",
+          title: "Você quer ajudar na criação desse evento?",
           description:"" 
          }
       }
