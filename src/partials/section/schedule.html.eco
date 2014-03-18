@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>O schedule está em fase de definicão</p>
+<p>O schedule está em fase de definição.</p>
 <div class="schedule-tbl">
   <table>
     <thead>

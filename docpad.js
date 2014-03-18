@@ -5,7 +5,7 @@ module.exports = {
   templateData: {
 
     conf: {
-      name: "Programacão Insubordinada",
+      name: "Programação Insubordinada",
       description: "",
       date: "5-6 Abril",
       venue: "Venue em definição",
