@@ -48,12 +48,12 @@ module.exports = {
     schedule: [
       {
         name: "Sábado",
-        time: "10h00",
+        time: "10h00 - 18:00",
         description: "Programa em fase de definição"
       },
       {
         name: "Domingo",
-        time: "10h00",
+        time: "10h00 - 18:00",
         description: "Programa em fase de definição"
       },
       {
