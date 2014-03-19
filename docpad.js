@@ -14,10 +14,10 @@ module.exports = {
       state: "Pernambuco, Brazil"
     },
 
-    // callToAction: {
-    //     text: "Register now!",
-    //     link: "http://eventick.com.br"
-    // },
+    callToAction: {
+        text: "Inscreva-se!",
+        link: "https://programacaoinsubordinada.wufoo.com/forms/z1jyofql1l96g7m/"
+    },
 
     site: {
       theme: "yellow-swan",

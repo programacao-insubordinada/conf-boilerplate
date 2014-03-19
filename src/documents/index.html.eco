@@ -1,5 +1,7 @@
 ---
-layout: default
+title: "Programação Insubordinada"
+layout: "default"
+isPage: false
 ---
 
 <% for section in @sections : %>

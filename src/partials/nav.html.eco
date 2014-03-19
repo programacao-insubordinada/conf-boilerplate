@@ -3,9 +3,18 @@
   <ul class="wrapper">
     <% for section in @sections : %>
       <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        <a href="index.html#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
       </li>
     <% end %>
+
+	<% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
+        <li class="nav-item <%= if page.id is @document.id then 'active' else 'inactive' %>">
+            <a href="<%= page.url %>" class="nav-link" title="<%= page.title %>">
+                <%= page.title %>
+            </a>
+        </li>
+    <% end %>
+
   </ul>
 </nav>
 
