@@ -8,8 +8,8 @@ module.exports = {
       name: "Programação Insubordinada",
       description: "",
       date: "5-6 Abril",
-      venue: "Venue em definição",
-      address: "Recife",
+      venue: "ThoughtWorks",
+      address: "Av. Governador Agamenon Magalhães, 4779",
       city: "Recife",
       state: "Pernambuco, Brazil"
     },
@@ -36,12 +36,12 @@ module.exports = {
 
 
     labels: {
-      about: "About",
-      location: "Location",
-      schedule: "Schedule",
-      speakers: "Trainers",
+      about: "Sobre",
+      location: "Localização",
+      schedule: "Agenda",
+      speakers: "Palestrantes",
       sponsors: "Sponsors",
-      partners: "Partners",
+      partners: "Parceiros",
       contact: "Contact"
     },
 
