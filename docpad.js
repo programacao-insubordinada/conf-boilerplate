@@ -96,7 +96,7 @@ module.exports = {
       {
         type: "other",
         time: "17:45",
-        name: "Workshop sobre automaçao de testes"
+        name: "Feedback e retrospectiva"
       },
       {
         type: "day",
