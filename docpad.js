@@ -6,9 +6,8 @@ module.exports = {
 
     conf: {
       name: "Programação Insubordinada",
-      description: "",
       date: "5-6 Abril",
-      venue: "ThoughtWorks",
+      venue: "Escritorio da ThoughtWorks, 12 andar",
       address: "Av. Governador Agamenon Magalhães, 4779",
       city: "Recife",
       state: "Pernambuco, Brazil"
@@ -26,8 +25,8 @@ module.exports = {
 
     sections: [
       'about',
-      'location',
       'schedule',
+      'location',
       'speakers',
       // 'sponsors',
       'partners'
