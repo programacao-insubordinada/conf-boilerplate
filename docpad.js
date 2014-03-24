@@ -6,11 +6,15 @@ module.exports = {
 
     conf: {
       name: "Programação Insubordinada",
-      date: "5-6 Abril",
-      venue: "Escritorio da ThoughtWorks, 12 andar",
+      date: "5 e 6 de Abril",
+      venue: "ThoughtWorks - Edifício Empresarial Isaac Newton, 12 andar",
       address: "Av. Governador Agamenon Magalhães, 4779",
       city: "Recife",
       state: "Pernambuco, Brazil"
+    },
+
+    socialMedia: {
+      twitter: "ProgInsub"
     },
 
     callToAction: {
@@ -71,11 +75,11 @@ module.exports = {
     ],
 
     partners: [
-      // {
-      //   name: "BrazilJS",
-      //   logo: "themes/yellow-swan/img/partner.png",
-      //   url: "http://braziljs.org"
-      // }
+      {
+        name: "ThoughtWorks",
+        logo: "themes/yellow-swan/img/partners/thoughtworks.png",
+        url: "http://www.thoughtworks.com"
+      }
     ],
 
     getTheme: function() {

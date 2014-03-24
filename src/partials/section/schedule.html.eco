@@ -38,7 +38,12 @@
     </tbody>
   </table>
 </div>
+<div class="social-media-share">
+  <div class="fb-like" data-href="<%= @site.url %>" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div><br/>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Olha aí o evento de <%= @conf.name %> o <%= @conf.date %> em <%= @conf.city %> " data-via="<%= @socialMedia.twitter %>" data-size="large">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+</div>
 <div class="schedule-call-action">
   <% if @conf.price || @callToAction: %>
     <div class="call-action-area">
