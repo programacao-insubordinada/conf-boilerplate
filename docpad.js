@@ -50,16 +50,95 @@ module.exports = {
 
     schedule: [
       {
-        name: "Sábado",
-        time: "10h00 - 18:00",
-        description: "Programa em fase de definição"
+        type: "day",
+        name: "Sábado"
       },
       {
-        name: "Domingo",
-        time: "10h00 - 18:00",
-        description: "Programa em fase de definição"
+        type: "other",
+        time: "9:30",
+        name: "Abertura"
       },
       {
+        type: "other",
+        time: "10:00",
+        name: "Definição dos problemas de justiçia social"
+      },
+      {
+        type: "other",
+        time: "11:00",
+        name: "Design thinking: prototipação e validação das soluçoes"
+      },
+      {
+        type: "break",
+        time: "12:30",
+        name: "Almoço"
+      },
+      {
+        type: "other",
+        time: "13:30",
+        name: "Lean&Agile game"
+      },
+      {
+        type: "other",
+        time: "15:00",
+        name: "Introduçao a Lean Startup e Entrega Continua"
+      },
+      {
+        type: "other",
+        time: "15:30",
+        name: "Setup e inicio desenvolvimento"
+      },
+      {
+        type: "other",
+        time: "16:30",
+        name: "Workshop sobre automaçao de testes"
+      },
+      {
+        type: "other",
+        time: "17:45",
+        name: "Workshop sobre automaçao de testes"
+      },
+      {
+        type: "day",
+        name: "Domingo"
+      },
+      {
+        type: "other",
+        time: "9:30",
+        name: "Workshop de TDD & Refactoração"
+      },
+      {
+        type: "other",
+        time: "11:30",
+        name: "Continuação desenvolvimento"
+      },
+      {
+        type: "break",
+        time: "12:30",
+        name: "Almoço"
+      },
+      {
+        type: "other",
+        time: "13:30",
+        name: "Aplificar o impacto com compartilhamento aberto e rede sociais"
+      },
+      {
+        type: "other",
+        time: "14:00",
+        name: "Continuação desenvolvimento"
+      },
+      {
+        type: "other",
+        time: "17:00",
+        name: "Presentaçao dos projectos"
+      },
+      {
+        type: "other",
+        time: "17:30",
+        name: "Feedback e retrospectiva"
+      },
+      {
+        type: "presentation",
         name: "Programacão Insubordinada",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: 'Entre para fazer parte do grupo de voluntários no google groups!',
@@ -70,7 +149,7 @@ module.exports = {
         presentation: {
           title: "Você quer ajudar na criação desse evento?",
           description:"" 
-         }
+        }
       }
     ],
 
