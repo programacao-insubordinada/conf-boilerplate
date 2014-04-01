@@ -18,8 +18,8 @@ module.exports = {
     },
 
     callToAction: {
-        text: "Inscreva-se!",
-        link: "https://programacaoinsubordinada.wufoo.com/forms/z1jyofql1l96g7m/"
+        text: "Inscrições fechadas",
+        link: "#"
     },
 
     site: {
